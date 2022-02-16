@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista-desktop{
+    list-style: none;
+    padding: 12px 20px;
+    
+    display: flex;
+}
+
+li{
+    padding-right: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: rgba(1, 15, 11, 0.829);
+    color: #fff;
+    height: 75px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_title{
+    padding: 12px 20px;
+}
+
+.hamburguer{
+    display: none;
+}
+
+/* dropdown */
+/* dropdown */
+
+.lista-mobile{
+    background-color: rgba(1, 15, 11, 0.829);
+    text-align: center;
+}
+
+.lista-mobile > li{
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.lista-mobile__paragrafo{
+    text-decoration: underline;
+}
+
+.ocultar{
+    display: none;
+}
+
+/* dropdown */
+/* dropdown */
+
+@media screen and (max-width: 800px){
+    .hamburguer{
+        display: flex;
+        font-size: 2rem;
+        padding-right: 3rem;
+        cursor: pointer;
+    }
+    .lista-desktop{
+        display: none;
+    }
+}
+
+
+/* vou fazer uns testes de largura aqui */
+
+main > div > p{
+    background-color: bisque;
+    width: 85%;
+    margin-top: 15px;
+    
+    margin: auto;
+}
+
+.teste{
+    margin-top: 20px;
+    
+}
